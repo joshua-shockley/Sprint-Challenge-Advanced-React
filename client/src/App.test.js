@@ -1,9 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from '@testing-library/react'
 import App from './App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+test('renders without crashing', () => {
+    const app = render( < App / > );
+});
+
+test('looking for button text', () => {
+    const app = render( < App / > );
+    app.getByText(/click me/i)
+});
+
+test('looking for title text', () => {
+    const app = render( < App / > );
+    app.getByText(/Hello! Welcome To The Ladies Of Soccer/i)
 });
