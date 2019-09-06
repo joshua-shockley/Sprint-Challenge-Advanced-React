@@ -31,6 +31,7 @@
     padding: 20px 5px;
 }
 
-.dark-mode {
-    background: darkslategray;
+.purple-mode {
+    color: purple;
+    font-size: 1.1rem;
 }
