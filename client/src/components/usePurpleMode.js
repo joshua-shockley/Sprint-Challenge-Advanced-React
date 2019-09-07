@@ -11,6 +11,9 @@ export const usePurpleMode = (storedValue) => {
         console.log(thepurp);
         purpleMode === true ? thepurp.classList.add('purple-mode') : thepurp.classList.remove('purple-mode');
 
+        var thepurpH = document.querySelector("header");
+        console.log(thepurpH);
+        purpleMode === true ? thepurpH.classList.add('purple-mode-header') : thepurpH.classList.remove('purple-mode-header')
     }, [purpleMode]);
 
     return [purpleMode, setPurpleMode]

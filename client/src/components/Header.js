@@ -20,7 +20,7 @@ console.log(purpleMode);
             <button
             onClick={theSwitch}
             className="the-switch-button">
-            Purple Me</button>
+            Add Girl Power</button>
         </header>
 
     );

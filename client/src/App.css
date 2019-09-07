@@ -15,7 +15,7 @@
 
 .the-switch-button {
     width: 100px;
-    height: 40px;
+    height: 50px;
     border-radius: 25px;
     font-size: 1.1rem;
     background: rgb(240, 220, 195);
@@ -27,12 +27,28 @@
     padding: 20px;
 }
 
+.sticker-side {
+    width: 25%;
+}
+
 .the-list {
     background: white;
     width: 50%;
     height: 200px;
+    display: flex;
     margin: 15px auto;
     box-shadow: 2px 2px silver;
+}
+
+.sticker {
+    color: red !important;
+    font-size: 1.5rem !important;
+    height: 80%;
+    border-right: 2px dotted red;
+}
+
+.person-info {
+    margin-left: 20px;
 }
 
 .the-switch-button {
@@ -40,11 +56,16 @@
 }
 
 .name {
-    padding: 20px 5px;
+    padding: 10px 5px;
 }
 
 .purple-mode {
     background: rgb(87, 12, 77);
     color: purple;
     font-size: 1.1rem;
+}
+
+.purple-mode-header {
+    background: gold;
+    color: rgb(116, 13, 116);
 }

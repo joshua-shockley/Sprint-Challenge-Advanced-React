@@ -29,10 +29,16 @@ render(){
     <div className="App">
       <Header/>
       <section className="container">
+
         {this.state.players.map(ply => (
         <div className="the-list">
-          <h2 className="name" >Name: {ply.name}</h2>
-          <h3 className="country" >Plays for: {ply.country}</h3>
+          <div className="sticker-side">
+            <h1 className="sticker">Hello... My Name Is:</h1>
+          </div>
+          <div className="person-info">
+            <h2 className="name" > {ply.name}</h2>
+            <h3 className="country" >I play for {ply.country}</h3>
+          </div>
         </div>
       ))}
       </section>
