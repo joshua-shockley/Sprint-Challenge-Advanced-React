@@ -28,14 +28,14 @@ render(){
   return (
     <div className="App">
       <Header/>
-      <div className="container">
+      <section className="container">
         {this.state.players.map(ply => (
         <div className="the-list">
           <h2 className="name" >Name: {ply.name}</h2>
           <h3 className="country" >Plays for: {ply.country}</h3>
         </div>
       ))}
-      </div>
+      </section>
     </div>
   );
   }

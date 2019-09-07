@@ -2,9 +2,9 @@ import React from 'react';
 import { render } from '@testing-library/react'
 import App from './App';
 
-test('renders without crashing', () => {
-    const app = render( < App / > );
-});
+// test('renders without crashing', () => {
+//     const app = render( < App / > );
+// });
 
 test('looking for button text', () => {
     const app = render( < App / > );

@@ -12,11 +12,6 @@ const theSwitch = e => {
 
 }
 
-// useEffect(() => {
-//     if(darkMode === true){
-//         document.body.classList.add("dark-mode");
-//     } else { document.body.classList.remove("dark-mode")};
-// }, [darkMode]);
 
 console.log(purpleMode);
     return(
@@ -25,7 +20,7 @@ console.log(purpleMode);
             <button
             onClick={theSwitch}
             className="the-switch-button">
-            click Me</button>
+            Purple Me</button>
         </header>
 
     );

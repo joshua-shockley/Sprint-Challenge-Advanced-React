@@ -7,17 +7,9 @@ export const usePurpleMode = (storedValue) => {
 
 
     useEffect(() => {
-        const div = document.getElementsByClassName("container");
-        console.log(div);
-        purpleMode === true ? document.body.classList.add('purple-mode') : document.body.classList.remove('purple-mode');
-        // if (darkMode !== false) {
-        //     document.body.classList.add("dark-mode");
-        // } else { document.body.classList.remove("dark-mode") };
-
-        //ternery version of if statement
-        //const body = document.querySelector('body');
-        // darkMode === true ? body.classList.add('dark-mode) : body.classList.remove('dark-mode);
-
+        var thepurp = document.querySelector("section");
+        console.log(thepurp);
+        purpleMode === true ? thepurp.classList.add('purple-mode') : thepurp.classList.remove('purple-mode');
 
     }, [purpleMode]);
 

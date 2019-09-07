@@ -13,8 +13,16 @@
     top: 0;
 }
 
+.the-switch-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    background: rgb(240, 220, 195);
+}
+
 .container {
-    margin-top: 130px;
+    margin-top: 170px;
     background: whitesmoke;
     padding: 20px;
 }
@@ -22,9 +30,13 @@
 .the-list {
     background: white;
     width: 50%;
-    height: 150px;
+    height: 200px;
     margin: 15px auto;
     box-shadow: 2px 2px silver;
+}
+
+.the-switch-button {
+    margin: 10px;
 }
 
 .name {
@@ -32,6 +44,7 @@
 }
 
 .purple-mode {
+    background: rgb(87, 12, 77);
     color: purple;
     font-size: 1.1rem;
 }
